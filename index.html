@@ -6,40 +6,73 @@
     background-color: #002b36;
 }
 
+.magenta{
+  color:#d33682;
+}
+
+.yellow{
+   color:#b58900;
+}
+
+.img-circular{
+  width: 200px;
+  height: 200px;
+  background-image: url('https://lh4.googleusercontent.com/-w2hEZ_Gw9Z0/U0fjJ4dD8BI/AAAAAAAAUjs/j9i-Oa33EtQ/w542-h545-no/Prayag_Upd_2014_Pollak.jpg');
+  //background-image: url('https://lh6.googleusercontent.com/-2rpUMH8xSyY/UcWgjCtRGkI/AAAAAAAAM44/sqL7DtawhHw/w379-h383-no/RefusedPray.JPG');
+  background-size: cover;
+  display: block;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  background-position: center;
+}
 </style>
 </head>
+
 <body ng-controller="BlogController">
 <h2>{{blogTitle}} <i>(noun)</i> /<a href="http://www.cs.berkeley.edu/~bh/hacker.html">programmer</a>/<a href="http://en.wikipedia.org/wiki/Philosopher">philosopher</a></h2>
 
+<div class="img-circular"></div>
+
+<!--
 <img src="https://lh6.googleusercontent.com/-2rpUMH8xSyY/UcWgjCtRGkI/AAAAAAAAM44/sqL7DtawhHw/w379-h383-no/RefusedPray.JPG"/>
+-->
+<br/>
+<br/>
+<br/>
 <br/>
 
 <div class="solarized">
 
 <pre style="color:#839496">
 
-"characteristics" : {
+{
 
-    "JVM Rockstar" : [ Scala, Groovy, Clojure, JRuby, Android** ]",
+"talents" : {
 
-    "Keyboard-driven programmer",
+    "<span class="magenta">JVM Rockstar</span>" : <span class="yellow">[ Scala, Groovy, Clojure, JRuby, Android** ]</span>,
 
-    "Atheist",
+    "<span class="yellow">Keyboard-driven programmer</span>",
 
-    "Socially Introverted Dreamer"
+    "<span class="yellow">Atheist</span>",
+
+    "<span class="yellow">Socially Introverted Dreamer</span>"
 
 },
 
 "profiles" : {
 
-   "questionsOrAnswers" : [ <a href="http://stackoverflow.com/users/432903/prayag-upd">@stackoverflow</a>, <a href="http://www.quora.com/Prayag-Upd">@quora</a>],
+   "<span class="magenta">codes</span>" : "<a class="yellow" href="https://github.com/iPrayag/">github</a>", 
 
-   "tweets" : <a href="https://twitter.com/JVMThreadDump">@JVMThreadDump</a>,
+   "<span class="magenta">questionsOrAnswers</span>" : [ "<a class="yellow" href="http://stackoverflow.com/users/432903/prayag-upd">@stackoverflow</a>", "<a class="yellow" href="http://www.quora.com/Prayag-Upd">@quora</a>"],
 
-   "resume" : <a href="http://np.linkedin.com/in/prayagupd/">@linkedin</a>,
+   "<span class="magenta">tweets</span>" : "<a class="yellow" href="https://twitter.com/JVMThreadDump">@JVMThreadDump</a>",
 
-   "blogs"  : <a href="http://prayag-waves.blogspot.com">dirty but clean code</a>
+   "<span class="magenta">resume</span>" : "<a class="yellow" href="http://np.linkedin.com/in/prayagupd/">@linkedin</a>",
 
+   "<span class="magenta">blogs</span>"  : "<a class="yellow" href="http://prayag-waves.blogspot.com">dirty but clean code</a>"
+
+}
 }
 </pre>
 
