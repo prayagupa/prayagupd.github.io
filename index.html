@@ -2,6 +2,11 @@
 <title>/prayag/upd</title>
 <head>
 <style>
+
+.solarized-light{
+	background-color : #fdf6e3;
+}
+
 .solarized{
     background-color: #002b36;
 }
@@ -53,9 +58,17 @@
 </head>
 
 <body ng-controller="BlogController">
+<div class="solarized-light">
 <div style="display: block; height: 50px; text-align:center; line-height:50px;">
       <h2>{{blogTitle}} <i>(noun)</i> /<a href="http://www.cs.berkeley.edu/~bh/hacker.html">programmer</a>/<a href="http://c2.com/cgi/wiki?ProgrammingIsPhilosophy">philosopher</a></h2>
 </div>
+
+<div id="contacts" style="text-align:center;">
+	{{address}},
+	<a>{{email}}</a>
+</div>
+
+<p></p>
 
 <div class="outer">
     <div class="center-helper">
@@ -68,35 +81,38 @@
 <br/>
 <br/>
 
+</div>
 <div class="solarized">
 <pre style="color:#839496">
 
+                                                  $ GET /describe/prayagupd
+                                                  
 
                                                   {
 
-                                                         "talents" : {
+                                                         "skills" : {
 
-                                                                   "<span class="magenta">JVM Rockstar</span>" : <span class="yellow">[ Scala, Groovy, Clojure, JRuby, Android** ]</span>,
+                                                                   "<span class="magenta">JVM Programmer</span>" : <span class="yellow">[ Scala, Groovy, Clojure, JRuby, Android** ]</span>,
 
-                                                                   "<span class="yellow">Keyboard-Driven programmer</span>",
+                                                                   "<span class="yellow">keyboard-Driven Programmer</span>",
 
-								   "<span class="magenta">Wannabe Progressive musician</span>" : [ "<a class="yellow" href="https://soundcloud.com/prayagupd">@soundcloud"</a>, "<a href="https://www.youtube.com/user/Prayagrammer/playlists?flow=grid&shelf_id=7&view=50" class="yellow">@youtube</a>" , "<a href="https://myspace.com/182874288/mixes/" class="yellow">@myspace</a>", "<a href="http://www.last.fm/user/prayagupd/library" class="yellow">@lastfm</a>"  ] ,
+								   "<span class="magenta">wannabe Progressive musician</span>" : [ "<a class="yellow" href="https://soundcloud.com/prayagupd">@soundcloud"</a>, "<a href="https://www.youtube.com/user/Prayagrammer/playlists?flow=grid&shelf_id=7&view=50" class="yellow">@youtube</a>" , "<a href="https://myspace.com/182874288/mixes/" class="yellow">@myspace</a>", "<a href="http://www.last.fm/user/prayagupd/library" class="yellow">@lastfm</a>"  ] ,
 
-								   "<span class="magenta">Photographer</span>" : "<a class="yellow" href="http://500px.com/PrayagUpd">500px</a>"
+								   "<span class="magenta">occaisonal Photographer</span>" : "<a class="yellow" href="http://500px.com/PrayagUpd">500px</a>"
 
                                                          },
 
-                                                         "profiles" : {
+                                                         "internet_profile_logs" : {
 
                                                                     "<span class="magenta">coder</span>" : "<a class="yellow" href="https://github.com/prayagupd/">github</a>", 
  
-                                                                    "<span class="magenta">questionsOrAnswers</span>" : [ "<a class="yellow" href="http://stackoverflow.com/users/432903/prayag-upd">@stackoverflow</a>", "<a class="yellow" href="http://www.quora.com/Prayag-Upd">@quora</a>"],
+                                                                    "<span class="magenta">askerOrResponder</span>" : [ "<a class="yellow" href="http://stackoverflow.com/users/432903/prayag-upd">@stackoverflow</a>", "<a class="yellow" href="http://www.quora.com/Prayag-Upadhyay">@quora</a>"],
 
-                                                                    "<span class="magenta">tweets</span>" : "<a class="yellow" href="https://twitter.com/JVMThreadDump">@JVMThreadDump</a>",
+                                                                    "<span class="magenta">tweeter</span>" : "<a class="yellow" href="https://twitter.com/JVMThreadDump">@JVMThreadDump</a>",
 
                                                                     "<span class="magenta">resume</span>" : "<a class="yellow" href="http://np.linkedin.com/in/prayagupd/">@linkedin</a>",
 
-                                                                    "<span class="magenta">blogs</span>"  : "<a class="yellow" href="http://prayaupd-dreamspace.blogspot.com">dirty but clean code</a>"
+                                                                    "<span class="magenta">occasional blogger</span>"  : "<a class="yellow" href="http://prayaupd-dreamspace.blogspot.com">dirty but clean code</a>"
 
                                                          } 
 		                                 }
