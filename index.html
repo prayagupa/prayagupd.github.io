@@ -3,6 +3,10 @@
 <head>
 <style>
 
+.monospace {
+	font-family: Consolas, monaco, monospace;
+}
+
 .solarized-light{
 	background-color : #fdf6e3;
 }
@@ -59,11 +63,11 @@
 
 <body ng-controller="BlogController">
 <div class="solarized-light">
-<div style="display: block; height: 50px; text-align:center; line-height:50px;">
+<div style="display: block; height: 50px; text-align:center; line-height:50px; font-family: Consolas, monaco, monospace;">
       <h2>{{blogTitle}} <i>(noun)</i> /<a href="http://www.cs.berkeley.edu/~bh/hacker.html">programmer</a>/<a href="http://c2.com/cgi/wiki?ProgrammingIsPhilosophy">philosopher</a></h2>
 </div>
 
-<div id="contacts" style="text-align:center;">
+<div id="contacts" style="text-align:center;" class="monospace">
 	{{address}},
 	<a>{{email}}</a>
 </div>
@@ -82,12 +86,11 @@
 <br/>
 
 </div>
-<div class="solarized">
+<div class="solarized monospace">
 <pre style="color:#839496">
 
-                                                  $ GET /describe/prayagupd
+                                                  $ GET /prayagupd/whois HTTP/1.1
                                                   
-
                                                   {
 
                                                          "skills" : {
@@ -100,8 +103,12 @@
 
 								   "<span class="magenta">occaisonal Photographer</span>" : "<a class="yellow" href="http://500px.com/PrayagUpd">500px</a>"
 
-                                                         },
+                                                         }
+                                                  }
 
+                                                  $ GET /prayagupd/whereis HTTP/1.1
+
+                                                  {
                                                          "internet_profile_logs" : {
 
                                                                     "<span class="magenta">coder</span>" : "<a class="yellow" href="https://github.com/prayagupd/">github</a>", 
@@ -110,7 +117,7 @@
 
                                                                     "<span class="magenta">tweeter</span>" : "<a class="yellow" href="https://twitter.com/JVMThreadDump">@JVMThreadDump</a>",
 
-                                                                    "<span class="magenta">resume</span>" : "<a class="yellow" href="http://np.linkedin.com/in/prayagupd/">@linkedin</a>",
+                                                                    "<span class="magenta">resume</span>" : "<a class="yellow" href="http://linkedin.com/in/prayagupd/">@linkedin</a>",
 
                                                                     "<span class="magenta">occasional blogger</span>"  : "<a class="yellow" href="http://prayaupd-dreamspace.blogspot.com">dirty but clean code</a>"
 
