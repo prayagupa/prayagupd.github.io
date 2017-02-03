@@ -10,7 +10,7 @@ function BlogController( $scope, $routeParams, $http ) {
     // load all info
     $scope.initialize = function() {
        $scope.blogTitle = "prayagupd"
-       $scope.address = "SEA, WA"
+       $scope.address = "North West"
        $scope.email = "prayag.upd@gmail.com"
     }
  

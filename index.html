@@ -3,6 +3,11 @@
 <head>
 <style>
 
+.blog-links    {
+	color:#839496;
+	background-color:transparent; 
+}
+
 .monospace {
 	font-family: Consolas, monaco, monospace;
 }
@@ -44,7 +49,7 @@
 .img-circular{
   width: 200px;
   height: 200px;
-  background-image: url('https://lh4.googleusercontent.com/-w2hEZ_Gw9Z0/U0fjJ4dD8BI/AAAAAAAAUjs/j9i-Oa33EtQ/w542-h545-no/Prayag_Upd_2014_Pollak.jpg');
+  background-image: url('https://yt3.ggpht.com/-o6NdgnEqc4Q/AAAAAAAAAAI/AAAAAAAAAAA/UpjEVo7TiGM/s900-c-k-no-mo-rj-c0xffffff/photo.jpg');
   //background-image: url('https://lh6.googleusercontent.com/-2rpUMH8xSyY/UcWgjCtRGkI/AAAAAAAAM44/sqL7DtawhHw/w379-h383-no/RefusedPray.JPG');
   background-size: cover;
   display: block;
@@ -64,7 +69,7 @@
 <body ng-controller="BlogController">
 <div class="solarized-light">
 <div style="display: block; height: 50px; text-align:center; line-height:50px; font-family: Consolas, monaco, monospace;">
-      <h2>{{blogTitle}} <i>(noun)</i> /<a href="http://www.cs.berkeley.edu/~bh/hacker.html">programmer</a>/<a href="http://c2.com/cgi/wiki?ProgrammingIsPhilosophy">dreaming nomad</a></h2>
+      <h2 class="yellow">{{blogTitle}} <i>(noun)</i> /<a class="blog-links" href="http://www.cs.berkeley.edu/~bh/hacker.html">programmer</a>/<a style="color:#839496" href="http://c2.com/cgi/wiki?ProgrammingIsPhilosophy">dreaming nomad</a></h2>
 </div>
 
 <div id="contacts" style="text-align:center;" class="monospace">
@@ -95,9 +100,9 @@
 
                                                          "skills" : {
 
-                                                                   "<span class="magenta">JVM Programmer</span>" : <span class="yellow">[ Scala, Groovy, Clojure, JRuby, Android** ]</span>,
+                                                                   "<span class="magenta">typed programmer</span>" : <span class="yellow">[ Scala, Groovy, Clojure, JRuby, Android** ]</span>,
 
-                                                                   "<span class="yellow">keyboard Driven Programmer</span>",
+                                                                   "<span class="yellow">/bash/driven/programmer</span>",
 
 								   "<span class="magenta">abstract musician - EP coming soon </span>" : [ "<a class="yellow" href="https://soundcloud.com/prayagupd/tracks">@soundcloud"</a>, "<a href="https://www.youtube.com/user/Prayagrammer/playlists?flow=grid&shelf_id=7&view=50" class="yellow">@youtube</a>" , "<a href="https://myspace.com/182874288/mixes/" class="yellow">@myspace</a>", "<a href="http://www.last.fm/user/prayagupd/library" class="yellow">@lastfm</a>"  ] ,
 
