@@ -11,7 +11,7 @@ function BlogController( $scope, $routeParams, $http ) {
     $scope.initialize = function() {
        $scope.blogTitle = "prayagupd"
        $scope.address = "North West"
-       $scope.email = "prayag.upd@gmail.com"
+       $scope.email = "email - openssl enc -base64 -d <<< cHJheWFnLnVwZEBnbWFpbC5jb20K"
     }
  
     // when we first stat up
