@@ -12,6 +12,7 @@ function BlogController( $scope, $routeParams, $http ) {
        $scope.blogTitle = "prayagupd"
        $scope.address = "North West"
        $scope.email = "email - openssl enc -base64 -d <<< cHJheWFnLnVwZEBnbWFpbC5jb20K"
+       $scope.header = "/code/love/meditate"
     }
  
     // when we first stat up
