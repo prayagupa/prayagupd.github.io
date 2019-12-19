@@ -1,5 +1,4 @@
-Upd's terminal blog
+u.p.d.
 ===================
 
-inspired from [rziehl](https://github.com/rziehl/from_the_terminal)
 
